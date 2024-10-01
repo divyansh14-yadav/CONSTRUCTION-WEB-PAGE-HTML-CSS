@@ -1,0 +1,428 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.NavBar {
+    display: flex;
+    background-color: whitesmoke;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+}
+
+.navBarImage img {
+    margin-left: 30px;
+    margin-top: 10px;
+
+}
+
+.navbarChild {
+    display: flex;
+    margin: auto;
+    margin-left: 90px;
+    gap: 30px;
+
+}
+
+.navbarChild a {
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.navbarChild :hover {
+    background-color: black;
+    color: white;
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+
+.NavBarButton {
+    margin: auto;
+    width: 170px;
+    height: 35px;
+    border-radius: 7px;
+    color: white;
+    background-color: orange;
+    border: none;
+    font-size: 18px;
+}
+
+.heroSection {
+    background-image: url(../assets/images/slider-bg.jpg);
+    height: 450px;
+    /* padding: 30px; */
+    /* padding-top: 90px;
+     */
+    padding-top: 150px;
+    padding-left: 220px;
+}
+
+.heroSection h1 {
+    color: white;
+}
+
+.heroSectionButtonParent {
+    margin-top: 40px;
+    display: flex;
+    gap: 25px;
+}
+
+.heroSectionButtonParent button {
+    background-color: #f07b26;
+    border: none;
+    color: white;
+    width: 140px;
+    height: 40px;
+    font-size: 18px;
+}
+
+.serviceMain {
+    width: 90%;
+    margin: auto;
+    margin-top: 60px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* border: 1px solid; */
+}
+
+.serviceMain>div {
+    margin: auto;
+    margin-top: 60px;
+    line-height: 2;
+
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+.serviceParent {
+    display: flex;
+}
+
+.serviceParent>div>img {
+    height: 60px;
+}
+
+.serviceParent>div>h3 {
+    /* margin-top: 40px; */
+    line-height: 2;
+}
+
+.serviceParent>div>p {
+    line-height: 1.5;
+}
+
+.serviceParent>div>button {
+    margin-top: 8px;
+    background: none;
+    border: none;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.serviceParent>div>button:hover {
+    color: orange;
+    transition: 0.5s;
+}
+
+.aboutMain {
+    width: 90%;
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+}
+
+.aboutMain>div {
+    margin: auto;
+    margin-top: 60px;
+    /* width: 90%; */
+    padding: 20px;
+    width: 40%;
+}
+
+.aboutMain>div>p {
+    line-height: 1.4;
+}
+
+.aboutMain>div>h1 {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 60px;
+    line-height: 2;
+}
+
+.aboutMain>div>img {
+    width: 100%;
+    height: 370px;
+}
+
+.aboutMain>div>button {
+    margin-top: 20px;
+    background-color: #bc570d;
+    border: none;
+    color: white;
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+}
+
+.project {
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.project>h1 {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 40px;
+}
+
+.projectParentNav {
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    /* gap: 20px; */
+}
+
+.projectParentNav>a {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+
+.projectParentNav>p {
+    background-color: black;
+    color: white;
+}
+
+.projectParentNav>a:hover {
+    color: orangered;
+    transition: 0.5s;
+}
+
+.projectImageDiv {
+    display: flex;
+    margin-top: 60px;
+    gap: 40px;
+}
+
+.projectImageDiv>img {
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    margin: 0;
+}
+
+.projectImageDiv2 {
+    display: flex;
+    justify-content: end;
+    width: 840px;
+    height: 160px;
+}
+
+.projectImageDiv2>div {
+    width: 380px;
+    height: 160px;
+    background-color: #fd7e14;
+    padding-left: 20px;
+    padding-top: 20px;
+    line-height: 1.5;
+    color: white;
+}
+
+.Testinomial {
+    background-image: url(../assets/images/client-bg.jpg);
+    height: 500px;
+    margin-top: 85px;
+}
+
+.Testinomial>h2 {
+    color: white;
+    text-align: center;
+    padding-top: 35px;
+    font-size: 30px
+}
+
+.TestimonialCard {
+    background-color: white;
+    height: 250px;
+    width: 65%;
+    margin: auto;
+    margin-top: 75px;
+    display: flex;
+    border-radius: 10px;
+}
+
+.TestimonialCard>div>img {
+    transform: translate(-55px, 20px);
+    width: 120px;
+    border-radius: 12px;
+}
+
+.TestimonialCard1 {
+
+    width: 75%;
+    margin-top: 50px;
+}
+
+.TestimonialCard1>h4 {
+    /* line-height: 0; */
+    color: orange;
+    font-weight: normal;
+}
+
+.TestimonialCard1>p {
+    margin-top: 25px;
+}
+
+.whyChoose {
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.whyChoose>h1 {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.whyChooseChild {
+    display: flex;
+    /* justify-content: space-evenly; */
+    margin-top: 35px;
+}
+
+.whyChooseChild2 {
+    background-color: orange;
+    width: 31%;
+    height: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whyChooseChild>div>img {
+    /* background-color: #fd7e14; */
+}
+
+.whyChoosePara {
+    width: 93%;
+    margin-top: 10px;
+}
+
+.whyChooseChildheadpara {
+    margin-left: 70px;
+}
+
+.chooseButton {
+    display: flex;
+    justify-content: center;
+
+}
+
+.chooseButton>button {
+    background-color: fd7e14;
+    color: white;
+    border: none;
+    width: 135px;
+    height: 35px;
+    font-size: 16px;
+}
+
+.contactUsParent1 {
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top: 60px;
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.contactUsParent2 {
+    width: 40%;
+
+}
+
+.contactUsParent2>input {
+    width: 100%;
+    height: 60px;
+    margin-top: 25px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-left: 20px;
+
+}
+
+.footerMain {
+    background-color: black;
+    width: 100%;
+    height: 450px;
+    margin-top: 20px;
+}
+
+.fooeterParent {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fooeterParent>div {
+    color: white;
+    /* color: black; */
+    margin-top: 80px;
+}
+
+.foterLInksParent {
+    width: 85%;
+    margin-left: 140px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.foterLInksParent>div>h2{
+    color: white;
+}
+.foterLInksParent>div{
+    margin-top: 30px;
+}
+
+.footerAnchor {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: white;
+    margin-top: 25px;
+    gap: 20px;
+}
+.footerAnchor>a{
+    color: white;
+    text-decoration: none;
+}
+.instaFeedsFooter>div{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 15px;
+    gap: 12px;
+}
+.newsLetter>input{
+    width: 370px;
+    height: 40px;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+.newsLetter>button{
+    width: 120px;
+    height: 35px;
+    margin-top: 20px;
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    border: none;
+}
+.footerLogo{
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+}
